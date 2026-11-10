@@ -17,6 +17,19 @@ const usuario =
 
 
 //EVENTOS
+
+// document.addEventListener('click', (ev) => {
+//     if(ev.target,matches('button') {
+
+
+
+//     })
+
+// })
+
+
+
+
 buttonInfo.addEventListener('click', (ev) => {
     ev.preventDefault();
 
@@ -51,7 +64,7 @@ const recogerDatos = () => {
     let funciona = true;
 
     return new Promise((resolve, reject) => {
-        setTimeout(() => { 
+        setTimeout(() => {
             if (funciona) {
                 resolve(usuario)
             } else
